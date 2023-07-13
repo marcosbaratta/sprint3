@@ -1,0 +1,106 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  min-height: 30px;
+  border-radius: 7px;
+  position: absolute;
+  left: 5%;
+  top: 12%;
+}
+.table-container input {
+  width: 100%;
+  margin: 0px 0px 20px 0px;
+  border-radius: 10px;
+  height: 50px;
+}
+.table-container ul {
+  display: flex;
+  flex-direction: column;
+  min-height: 40px;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.table-container .cross {
+  border: none;
+  background-color: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+@media (min-width: 700px) {
+  .table-container {
+    width: 65%;
+    left: 15%;
+  }
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+  width: 100%;
+  color: gray;
+}
+.info #filter {
+  width: 80%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff;
+  height: 70px;
+  border-bottom: 1px lightgrey solid;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: lightgray;
+}
+
+.boton-filter {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  color: grey;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+
+#ul-container {
+  width: 100%;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.active {
+  color: hsl(220, 98%, 61%);
+}
+
+.dark-theme {
+  background-color: hsl(233, 14%, 35%);
+}
+
+.prueba {
+  background-color: hsl(237, 14%, 26%);
+  height: 75vh;
+}
+
+.dark-li {
+  color: white;
+}/*# sourceMappingURL=List.css.map */

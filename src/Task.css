@@ -1,0 +1,28 @@
+* {
+  list-style: none;
+  font-size: 18px;
+}
+
+.task {
+  min-width: 250px;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+}
+.task button {
+  border-radius: 50%;
+  border-color: linear-gradient(60deg, #57ddff, #c058f3);
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.task .tick {
+  background-color: transparent;
+  border-color: rgba(211, 211, 211, 0.994);
+  margin-left: 10px;
+}
+
+.complete {
+  background: linear-gradient(60deg, #57ddff, #c058f3) border-box;
+}/*# sourceMappingURL=Task.css.map */

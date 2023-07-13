@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Space+Grotesk:wght@400;500&display=swap");
+.header {
+  height: 25vh;
+  width: 100%;
+  background-image: url(./materials/images/bg-mobile-light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header #moon {
+  position: absolute;
+  left: 80%;
+  top: 25%;
+}
+.header span {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  color: white;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.dark {
+  background-image: url(./materials/images/bg-mobile-dark.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}/*# sourceMappingURL=Header.css.map */
